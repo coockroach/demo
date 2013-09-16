@@ -1,0 +1,178 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td {
+    margin:                                 0;
+    padding:                                0;
+}
+
+body {
+    background:                             #e6e6e6;
+    color:                                  black;
+    font-family:                            "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:                              12px;
+    text-align:                             center;
+    padding:                                5px;
+}
+
+#main {
+    width:                                  960px;
+    margin:                                 0 auto;
+    border:                                 1px solid #cbcbcb;
+    background-color:                       #dedede;
+    border-radius:                          5px;
+    -webkit-border-radius:                  5px;
+    -moz-border-radius:                     5px;
+    margin-top:                             5px;
+    margin-bottom:                          5px;
+}
+
+h1, h2,h3, h4, h5, h6 {
+    font-family:                            "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:                            normal;
+}
+
+header {
+    height:                                 110px;
+    border:                                 1px solid;
+    text-align:                             center;
+    background-color:                       #323232;
+    color:                                  whitesmoke;
+    font-weight:                            bolder;
+    border-radius:                          5px;
+    -webkit-border-radius:                  5px;
+    -moz-border-radius:                     5px;
+    box-shadow:                             2px 1px 1px #878787;
+    -webkit-box-shadow:                     2px 1px 1px #878787;
+    -moz-box-shadow:                        2px 1px 1px #878787;
+
+
+}
+
+h1.header {
+    display:                                block;
+    width:                                  221px;
+    height:                                 65px;
+    margin:                                 20px 0 0 10px;
+    text-indent:                            -5000px;
+}
+
+h1{
+    padding:                                40px;
+    font-size:                              30px;
+}
+
+#first {
+    margin-left:                            50px;
+}
+
+#second {
+    margin-left:                            400px;
+}
+
+#first, #second {
+    display:                                inline-block;
+    margin-top:                             20px;
+    font-size:                              15px;
+    text-transform:                         uppercase;;
+}
+
+.heading {
+    background:                             #dedede;
+    background-image:                       -moz-linear-gradient(#FFFFFF, #dedede);
+    background-image:                       -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#dedede));
+    background-image:                       -webkit-linear-gradient(#FFFFFF, #dedede);
+    height:                                 70px;
+    border-radius:                          5px;
+    -webkit-border-radius:                  5px;
+    -moz-border-radius:                     5px;
+    margin-top:                             20px;
+}
+
+#url {
+    background-color:                       #dedede;
+}
+
+h3 {
+    border:                                 2px solid grey;
+    background-color:                       #323232;
+    color:                                  white;
+    width:                                  420px;
+    border-radius:                          5px;
+    -webkit-border-radius:                  5px;
+    -moz-border-radius:                     5px;
+    margin-bottom:                          10px;
+    margin-top:                             40px;
+
+}
+
+p {
+    font-size:                              14px;
+    margin-bottom:                          10px;
+    text-align:                             left;
+}
+
+
+
+input {
+    width:                                  420px;
+    display:                                block;
+    border-radius:                          5px;
+    -webkit-border-radius:                  5px;
+    -moz-border-radius:                     5px;
+    margin-top:                             10px;
+    margin-bottom:                          10px;
+
+}
+
+input#button1 {
+    background:                             url('plus2.png') no-repeat;
+    height:                                 40px;
+    width:                                  40px;
+    border:                                 none;
+    margin-left:                            400px;
+    margin-bottom:                          40px;
+}
+
+input#button2 {
+    width:                                  50px;
+    margin-left:                            400px;
+    margin-top:                             20px;
+    margin-bottom:                          20px;
+    background-color:                       #8a8a8a;
+    border:                                 1px solid;
+}
+
+textarea {
+    border-radius:                          5px;
+    -webkit-border-radius:                  5px;
+    -moz-border-radius:                     5px;
+    margin-left:                            0;
+}
+
+#box {
+    text-align:                             left;
+    margin-left:                            -50px;
+}
+
+#response {
+    float:                                  right;
+    margin-top:                             -700px;
+
+}
+
+#box2 {
+    float:                                  right;
+}
+
+footer {
+    height:                                 20px;
+    border:                                 1px solid;
+    text-align:                             center;
+    background-color:                       #323232;
+    color:                                  whitesmoke;
+    margin:                                 0 auto;
+    border-radius:                          5px;
+    -webkit-border-radius:                  5px;
+    -moz-border-radius:                     5px;
+    box-shadow:                             2px 2px 1px #878787;
+    -webkit-box-shadow:                     2px 2px 1px #878787;
+    -moz-box-shadow:                        2px 2px 1px #878787;
+}
