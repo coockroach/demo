@@ -5,6 +5,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquot
 
 body {
     background:                             #e6e6e6;
+    background:                             url('metal4.jpg');
     color:                                  black;
     font-family:                            "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:                              12px;
@@ -15,8 +16,7 @@ body {
 #main {
     width:                                  960px;
     margin:                                 0 auto;
-    border:                                 1px solid #cbcbcb;
-    background-color:                       #dedede;
+    color:                                  black;
     border-radius:                          5px;
     -webkit-border-radius:                  5px;
     -moz-border-radius:                     5px;
@@ -34,6 +34,7 @@ header {
     border:                                 1px solid;
     text-align:                             center;
     background-color:                       #323232;
+    background:                             url('metal2.jpg');
     color:                                  whitesmoke;
     font-weight:                            bolder;
     border-radius:                          5px;
@@ -71,23 +72,17 @@ h1{
     display:                                inline-block;
     margin-top:                             20px;
     font-size:                              15px;
-    text-transform:                         uppercase;;
+    text-transform:                         uppercase;
+    color:                                  white;
 }
 
 .heading {
-    background:                             #dedede;
-    background-image:                       -moz-linear-gradient(#FFFFFF, #dedede);
-    background-image:                       -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#dedede));
-    background-image:                       -webkit-linear-gradient(#FFFFFF, #dedede);
+
     height:                                 70px;
     border-radius:                          5px;
     -webkit-border-radius:                  5px;
     -moz-border-radius:                     5px;
     margin-top:                             20px;
-}
-
-#url {
-    background-color:                       #dedede;
 }
 
 h3 {
@@ -100,19 +95,22 @@ h3 {
     -moz-border-radius:                     5px;
     margin-bottom:                          10px;
     margin-top:                             40px;
-
+    margin-left:                            10px;
+    padding-left:                           20px;
 }
 
 p {
     font-size:                              14px;
     margin-bottom:                          10px;
+    margin-left:                            5px;
+    padding-left:                           8px;
     text-align:                             left;
+    color:                                  white;
 }
 
 
-
 input {
-    width:                                  420px;
+    width:                                  435px;
     display:                                block;
     border-radius:                          5px;
     -webkit-border-radius:                  5px;
@@ -131,6 +129,14 @@ input#button1 {
     margin-bottom:                          40px;
 }
 
+#button1:hover {
+    cursor:                                 pointer;
+}
+
+#button2:hover {
+    cursor:                                 pointer;
+ }
+
 input#button2 {
     width:                                  50px;
     margin-left:                            400px;
@@ -138,6 +144,7 @@ input#button2 {
     margin-bottom:                          20px;
     background-color:                       #8a8a8a;
     border:                                 1px solid;
+    color:                                  white;
 }
 
 textarea {
@@ -145,21 +152,42 @@ textarea {
     -webkit-border-radius:                  5px;
     -moz-border-radius:                     5px;
     margin-left:                            0;
+    padding-left:                           30px;
 }
 
 #box {
     text-align:                             left;
-    margin-left:                            -50px;
+    font-family:                            "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:                              13px;
+    margin-left:                            -15px;
+    padding-left:                           5px;
+    padding-top:                            5px;
+    color:                                  gray;
+    width:                                  440px;
 }
 
 #response {
     float:                                  right;
-    margin-top:                             -700px;
+    margin-top:                             -742px;
+    color:                                  black;
+}
 
+#response2 {
+    float:                                  right;
+    margin-top:                             -43px;
+    padding-right:                          6px;
 }
 
 #box2 {
     float:                                  right;
+    font-family:                            "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:                              13px;
+    margin-left:                            400px;
+    padding-top:                            5px;
+    color:                                  gray;
+    padding-left:                           5px;
+    width:                                  440px;
+    height:                                 632px;
 }
 
 footer {
@@ -175,4 +203,13 @@ footer {
     box-shadow:                             2px 2px 1px #878787;
     -webkit-box-shadow:                     2px 2px 1px #878787;
     -moz-box-shadow:                        2px 2px 1px #878787;
+    background:                             url('metal2.jpg');
 }
+
+input, value {
+    color:                                  gray;
+    padding-top:                            5px;
+    padding-bottom:                         5px;
+    padding-left:                           5px;
+}
+
